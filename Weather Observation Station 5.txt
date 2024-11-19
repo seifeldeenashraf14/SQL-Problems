@@ -1,0 +1,11 @@
+Problem Link: https://www.hackerrank.com/challenges/weather-observation-station-5/problem
+
+Code Implementation (SQL Query):
+
+SELECT top 1 CITY, len(CITY)
+FROM STATION 
+ORDER BY len(CITY) DESC, CITY;
+
+SELECT top 1 CITY, len(CITY) 
+FROM STATION 
+ORDER BY len(CITY), CITY ;
